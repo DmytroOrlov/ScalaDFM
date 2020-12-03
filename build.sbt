@@ -1,7 +1,5 @@
-name := "LANA Direct Follower Matrix"
-
-version := "0.2"
-
-scalaVersion := "2.12.8"
-
-resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
+lazy val `direct-follower-matrix` = (project in file("."))
+  .settings(
+    version := "0.2",
+    scalaVersion := "2.13.4",
+  )
